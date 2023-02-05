@@ -1,0 +1,132 @@
+﻿2023-02-05T17:50:18.8128038+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2023-02-05T17:50:18.8138103+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.31 in Framework clr40 in x86 mode execution started
+2023-02-05T17:50:18.8138103+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\packages\SpecRun.Runner.3.9.31\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2023-02-05T17:50:18.8138103+01:00;VSTestExecutionThread;Info;Current UserName: 'Gabi', MachineName: 'DESKTOP-R80D4UH'
+2023-02-05T17:50:18.8688003+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T17:50:18.8688003+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\TestResults" (default)
+2023-02-05T17:50:18.8688003+01:00;VSTestExecutionThread;Info;Profile: 
+2023-02-05T17:50:18.9427741+01:00;VSTestExecutionThread;Info;Log file path: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\TestResults\Unnamed project__2023-02-05T175018.log
+2023-02-05T17:50:18.9547663+01:00;Thread#13;Info;Checking activation
+2023-02-05T17:50:19.0387664+01:00;Thread#13;Info;Activated.
+2023-02-05T17:50:19.0397672+01:00;Thread#13;Info;Activation check completed
+2023-02-05T17:50:19.0397672+01:00;Thread#13;Info;Starting test run
+2023-02-05T17:50:19.0947704+01:00;Thread#13;Info;Discovering target: Default
+2023-02-05T17:50:19.0947704+01:00;Thread#13;Info;Discovering tests from assembly: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T17:50:19.5589959+01:00;Thread#13;Info;Discovered tests from assembly: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T17:50:19.5609979+01:00:Test Suite Dump
+2023-02-05T17:50:19.5629976+01:00:#0: Unnamed project/ - 
+2023-02-05T17:50:19.5629976+01:00:#1: Default - 
+2023-02-05T17:50:19.5629976+01:00:#2: DemositeSpecflow - 
+2023-02-05T17:50:19.5629976+01:00:#3: DemositeFeature - 
+2023-02-05T17:50:19.5989865+01:00:#4: Login User - TestAssembly:DemositeSpecflow/Feature:DemositeFeature/Scenario:Login+User
+2023-02-05T17:50:19.5989865+01:00:End: Test Suite Dump
+2023-02-05T17:50:19.6309903+01:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-05T17:50:19.6349890+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2023-02-05T17:50:19.6349890+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2023-02-05T17:50:19.6439930+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2023-02-05T17:50:19.6439930+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2023-02-05T17:50:19.6439930+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2023-02-05T17:50:19.6439930+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2023-02-05T17:50:19.6469890+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2023-02-05T17:50:19.6479891+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2023-02-05T17:50:19.6519889+01:00:Thread #0: creating new test thread executor for DemositeSpecflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2023-02-05T17:50:19.6559896+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2023-02-05T17:50:19.6619953+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2023-02-05T17:50:19.6649893+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2023-02-05T17:50:19.9332471+01:00:Thread#0:T:-> Loading plugin C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2023-02-05T17:50:19.9402444+01:00:Thread#0:T:-> Loading plugin C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T17:50:19.9432516+01:00:Thread#0:T:-> Using default config
+2023-02-05T17:50:20.3179528+01:00:Thread#0: Test #4/0 is started on thread #0
+2023-02-05T17:50:20.3619611+01:00:Thread#0:B:Given I have navigated to Demosite
+2023-02-05T17:50:24.2770848+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveNavigatedToDemosite() (3,8s)
+2023-02-05T17:50:24.2780814+01:00:Thread#0:B:And I have entered username
+2023-02-05T17:50:24.5104966+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredUsername() (0,2s)
+2023-02-05T17:50:24.5115010+01:00:Thread#0:B:And I have entered password
+2023-02-05T17:50:24.6403797+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredPassword() (0,1s)
+2023-02-05T17:50:24.6403797+01:00:Thread#0:B:When I press login button
+2023-02-05T17:50:24.7348934+01:00:Thread#0:T:done: DemositeFeatureSteps.WhenIPressLoginButton() (0,1s)
+2023-02-05T17:50:24.7359018+01:00:Thread#0:B:Then I should be navigated to index page
+2023-02-05T17:50:28.0566595+01:00:Thread#0:T:error:   Expected: True
+2023-02-05T17:50:28.0665459+01:00:Thread#0:T:  But was:  False
+2023-02-05T17:50:28.0695458+01:00:Thread#0:T: (3,3s)
+2023-02-05T17:50:28.0885457+01:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2023-02-05T17:50:28.0925475+01:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-05T17:50:28.0935509+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2023-02-05T17:50:28.0935509+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2023-02-05T17:50:28.0935509+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2023-02-05T17:50:28.0935509+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2023-02-05T17:50:28.0935509+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2023-02-05T17:50:28.0935509+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2023-02-05T17:50:28.0935509+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2023-02-05T17:50:28.0935509+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2023-02-05T17:50:28.5521336+01:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 8,2331809 seconds
+2023-02-05T17:50:28.5611421+01:00:Thread#0: Test #4/1 is started on thread #0
+2023-02-05T17:50:28.5671367+01:00:Thread#0:B:Given I have navigated to Demosite
+2023-02-05T17:50:31.6183998+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveNavigatedToDemosite() (3,0s)
+2023-02-05T17:50:31.6391377+01:00:Thread#0:B:And I have entered username
+2023-02-05T17:50:31.8122821+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredUsername() (0,1s)
+2023-02-05T17:50:31.8152787+01:00:Thread#0:B:And I have entered password
+2023-02-05T17:50:32.0068517+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredPassword() (0,2s)
+2023-02-05T17:50:32.0158491+01:00:Thread#0:B:When I press login button
+2023-02-05T17:50:32.0949192+01:00:Thread#0:T:done: DemositeFeatureSteps.WhenIPressLoginButton() (0,1s)
+2023-02-05T17:50:32.0996872+01:00:Thread#0:B:Then I should be navigated to index page
+2023-02-05T17:50:35.1297006+01:00:Thread#0:T:error: Multiple failures or warnings in test:
+2023-02-05T17:50:35.1397050+01:00:Thread#0:T:  1)   Expected: True
+2023-02-05T17:50:35.1502746+01:00:Thread#0:T:  But was:  False
+2023-02-05T17:50:35.1579113+01:00:Thread#0:T:  2)   Expected: True
+2023-02-05T17:50:35.1649070+01:00:Thread#0:T:  But was:  False
+2023-02-05T17:50:35.1729135+01:00:Thread#0:T: (3,0s)
+2023-02-05T17:50:35.1879069+01:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-05T17:50:35.1879069+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2023-02-05T17:50:35.1879069+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2023-02-05T17:50:35.1879069+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2023-02-05T17:50:35.1879069+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2023-02-05T17:50:35.1879069+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2023-02-05T17:50:35.1879069+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2023-02-05T17:50:35.1879069+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2023-02-05T17:50:35.1879069+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2023-02-05T17:50:35.4977693+01:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 6,9366272 seconds
+2023-02-05T17:50:35.5042274+01:00:Thread#0: Test #4/2 is started on thread #0
+2023-02-05T17:50:35.5112273+01:00:Thread#0:B:Given I have navigated to Demosite
+2023-02-05T17:50:38.2004827+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveNavigatedToDemosite() (2,7s)
+2023-02-05T17:50:38.2110203+01:00:Thread#0:B:And I have entered username
+2023-02-05T17:50:38.4015800+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredUsername() (0,2s)
+2023-02-05T17:50:38.4052560+01:00:Thread#0:B:And I have entered password
+2023-02-05T17:50:38.5388035+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredPassword() (0,1s)
+2023-02-05T17:50:38.5458032+01:00:Thread#0:B:When I press login button
+2023-02-05T17:50:38.6398813+01:00:Thread#0:T:done: DemositeFeatureSteps.WhenIPressLoginButton() (0,1s)
+2023-02-05T17:50:38.6498774+01:00:Thread#0:B:Then I should be navigated to index page
+2023-02-05T17:50:41.6713751+01:00:Thread#0:T:error: Multiple failures or warnings in test:
+2023-02-05T17:50:41.6808042+01:00:Thread#0:T:  1)   Expected: True
+2023-02-05T17:50:41.6867943+01:00:Thread#0:T:  But was:  False
+2023-02-05T17:50:41.6947972+01:00:Thread#0:T:  2)   Expected: True
+2023-02-05T17:50:41.6997970+01:00:Thread#0:T:  But was:  False
+2023-02-05T17:50:41.7053898+01:00:Thread#0:T:  3)   Expected: True
+2023-02-05T17:50:41.7137110+01:00:Thread#0:T:  But was:  False
+2023-02-05T17:50:41.7185672+01:00:Thread#0:T: (3,0s)
+2023-02-05T17:50:41.7289616+01:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-05T17:50:41.7289616+01:00:Thread#:Scheduler: at the end of normal test queue
+2023-02-05T17:50:41.7289616+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2023-02-05T17:50:41.7289616+01:00:Thread#0:Scheduler: No more tests for thread
+2023-02-05T17:50:42.0312036+01:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 6,5269762 seconds
+2023-02-05T17:50:42.0662028+01:00:Trying to cancel thread
+2023-02-05T17:50:42.0662028+01:00:Thread cancelled
+2023-02-05T17:50:42.0752130+01:00:Thread#-1:Scheduler: get next test for thread -1
+2023-02-05T17:50:42.0752130+01:00:Thread#:Scheduler: at the end of normal test queue
+2023-02-05T17:50:42.0752130+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2023-02-05T17:50:42.0832019+01:00;Thread#13;Info;test run finished
+2023-02-05T17:50:42.0832019+01:00;Thread#13;Info;publishing test results
+2023-02-05T17:50:42.0922053+01:00;Thread#13;Info;test results published
+2023-02-05T17:50:42.0922053+01:00;Thread#13;Info;generating reports
+2023-02-05T17:50:42.2635689+01:00;Thread#13;Info;Starting external report generation process
+2023-02-05T17:50:45.1284674+01:00;Thread#13;Info;Successfully generated reports.
+2023-02-05T17:50:45.1314657+01:00;Thread#13;Info;Successfully generated reports
+2023-02-05T17:50:45.1534723+01:00:Total: 1 (test executions: 3)
+2023-02-05T17:50:45.1584685+01:00:Succeeded: 0
+2023-02-05T17:50:45.1594650+01:00:Ignored: 0
+2023-02-05T17:50:45.1604649+01:00:Pending: 0
+2023-02-05T17:50:45.1604649+01:00:Skipped: 0
+2023-02-05T17:50:45.1604649+01:00:Failed: 1
+2023-02-05T17:50:45.1797651+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2023-02-05T17:50:45.1797651+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\TestResults\Unnamed project__2023-02-05T175018.html'
+========== End of log file ==========

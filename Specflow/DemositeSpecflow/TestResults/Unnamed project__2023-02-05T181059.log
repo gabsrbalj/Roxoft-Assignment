@@ -1,0 +1,87 @@
+﻿2023-02-05T18:10:59.4562754+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2023-02-05T18:10:59.4562754+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.31 in Framework clr40 in x86 mode execution started
+2023-02-05T18:10:59.4562754+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\packages\SpecRun.Runner.3.9.31\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2023-02-05T18:10:59.4568030+01:00;VSTestExecutionThread;Info;Current UserName: 'Gabi', MachineName: 'DESKTOP-R80D4UH'
+2023-02-05T18:10:59.5016924+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T18:10:59.5016924+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\TestResults" (default)
+2023-02-05T18:10:59.5019772+01:00;VSTestExecutionThread;Info;Profile: 
+2023-02-05T18:10:59.5652276+01:00;VSTestExecutionThread;Info;Log file path: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\TestResults\Unnamed project__2023-02-05T181059.log
+2023-02-05T18:10:59.5757139+01:00;Thread#13;Info;Checking activation
+2023-02-05T18:10:59.6535985+01:00;Thread#13;Info;Activated.
+2023-02-05T18:10:59.6535985+01:00;Thread#13;Info;Activation check completed
+2023-02-05T18:10:59.6535985+01:00;Thread#13;Info;Starting test run
+2023-02-05T18:10:59.6987429+01:00;Thread#13;Info;Discovering target: Default
+2023-02-05T18:10:59.6987429+01:00;Thread#13;Info;Discovering tests from assembly: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T18:11:00.1675095+01:00;Thread#13;Info;Discovered tests from assembly: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T18:11:00.1695103+01:00:Test Suite Dump
+2023-02-05T18:11:00.1715125+01:00:#0: Unnamed project/ - 
+2023-02-05T18:11:00.1715125+01:00:#1: Default - 
+2023-02-05T18:11:00.1715125+01:00:#2: DemositeSpecflow - 
+2023-02-05T18:11:00.1715125+01:00:#3: DemositeFeature - 
+2023-02-05T18:11:00.2086076+01:00:#4: Login User - TestAssembly:DemositeSpecflow/Feature:DemositeFeature/Scenario:Login+User
+2023-02-05T18:11:00.2086076+01:00:End: Test Suite Dump
+2023-02-05T18:11:00.2362041+01:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-05T18:11:00.2392038+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2023-02-05T18:11:00.2392038+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2023-02-05T18:11:00.2444451+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2023-02-05T18:11:00.2444451+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2023-02-05T18:11:00.2444451+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2023-02-05T18:11:00.2444451+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2023-02-05T18:11:00.2454571+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2023-02-05T18:11:00.2470958+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2023-02-05T18:11:00.2496169+01:00:Thread #0: creating new test thread executor for DemositeSpecflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2023-02-05T18:11:00.2516297+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2023-02-05T18:11:00.2561584+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2023-02-05T18:11:00.2571561+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2023-02-05T18:11:00.4828312+01:00:Thread#0:T:-> Loading plugin C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2023-02-05T18:11:00.4896118+01:00:Thread#0:T:-> Loading plugin C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T18:11:00.4916220+01:00:Thread#0:T:-> Using default config
+2023-02-05T18:11:00.8358543+01:00:Thread#0: Test #4/0 is started on thread #0
+2023-02-05T18:11:00.8701790+01:00:Thread#0:B:Given I have navigated to Demosite
+2023-02-05T18:11:05.2710810+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveNavigatedToDemosite() (4,2s)
+2023-02-05T18:11:05.2731035+01:00:Thread#0:B:And I have entered username
+2023-02-05T18:11:05.4500627+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredUsername() (0,2s)
+2023-02-05T18:11:05.4500627+01:00:Thread#0:B:And I have entered password
+2023-02-05T18:11:05.5529533+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredPassword() (0,1s)
+2023-02-05T18:11:05.5529533+01:00:Thread#0:B:When I press login button
+2023-02-05T18:11:05.9064557+01:00:Thread#0:T:done: DemositeFeatureSteps.WhenIPressLoginButton() (0,3s)
+2023-02-05T18:11:05.9081401+01:00:Thread#0:B:Then I should be navigated to index page
+2023-02-05T18:11:09.0476084+01:00:Thread#0:T:done: DemositeFeatureSteps.ThenIShouldBeNavigatedToIndexPage() (3,1s)
+2023-02-05T18:11:09.0623188+01:00:Thread#0:B:And I have entered inital
+2023-02-05T18:11:09.1782387+01:00:Thread#0:T:done: DemositeFeatureSteps.ThenIHaveEnteredInital() (0,1s)
+2023-02-05T18:11:09.1857223+01:00:Thread#0:B:And I have entered first name
+2023-02-05T18:11:09.3617772+01:00:Thread#0:T:done: DemositeFeatureSteps.ThenIHaveEnteredFirstName() (0,2s)
+2023-02-05T18:11:09.3679779+01:00:Thread#0:B:And I have entered middle name
+2023-02-05T18:11:09.4818109+01:00:Thread#0:T:done: DemositeFeatureSteps.ThenIHaveEnteredMiddleName() (0,1s)
+2023-02-05T18:11:09.4867249+01:00:Thread#0:B:When I choose female button
+2023-02-05T18:11:09.5616087+01:00:Thread#0:T:done: DemositeFeatureSteps.WhenIChooseFemaleButton() (0,1s)
+2023-02-05T18:11:09.5666028+01:00:Thread#0:B:When I press save
+2023-02-05T18:11:09.6283282+01:00:Thread#0:T:done: DemositeFeatureSteps.WhenIPressSave() (0,1s)
+2023-02-05T18:11:09.6313071+01:00:Thread#0:B:Then I should stay on index page
+2023-02-05T18:11:12.6487116+01:00:Thread#0:T:done: DemositeFeatureSteps.ThenIShouldStayOnIndexPage() (3,0s)
+2023-02-05T18:11:12.6715072+01:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-05T18:11:12.6724926+01:00:Thread#:Scheduler: at the end of normal test queue
+2023-02-05T18:11:12.6724926+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2023-02-05T18:11:12.6724926+01:00:Thread#0:Scheduler: No more tests for thread
+2023-02-05T18:11:12.6939558+01:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 11,8581015 seconds
+2023-02-05T18:11:12.7263865+01:00:Trying to cancel thread
+2023-02-05T18:11:12.7263865+01:00:Thread cancelled
+2023-02-05T18:11:12.7356152+01:00:Thread#-1:Scheduler: get next test for thread -1
+2023-02-05T18:11:12.7356152+01:00:Thread#:Scheduler: at the end of normal test queue
+2023-02-05T18:11:12.7356152+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2023-02-05T18:11:12.7376164+01:00;Thread#13;Info;test run finished
+2023-02-05T18:11:12.7376164+01:00;Thread#13;Info;publishing test results
+2023-02-05T18:11:12.7476144+01:00;Thread#13;Info;test results published
+2023-02-05T18:11:12.7476144+01:00;Thread#13;Info;generating reports
+2023-02-05T18:11:12.9216206+01:00;Thread#13;Info;Starting external report generation process
+2023-02-05T18:11:15.8021611+01:00;Thread#13;Info;Successfully generated reports.
+2023-02-05T18:11:15.8041758+01:00;Thread#13;Info;Successfully generated reports
+2023-02-05T18:11:15.8181728+01:00:Total: 1
+2023-02-05T18:11:15.8211715+01:00:Succeeded: 1
+2023-02-05T18:11:15.8221759+01:00:Ignored: 0
+2023-02-05T18:11:15.8221759+01:00:Pending: 0
+2023-02-05T18:11:15.8221759+01:00:Skipped: 0
+2023-02-05T18:11:15.8231717+01:00:Failed: 0
+2023-02-05T18:11:15.8718390+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2023-02-05T18:11:15.8718390+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\TestResults\Unnamed project__2023-02-05T181059.html'
+========== End of log file ==========

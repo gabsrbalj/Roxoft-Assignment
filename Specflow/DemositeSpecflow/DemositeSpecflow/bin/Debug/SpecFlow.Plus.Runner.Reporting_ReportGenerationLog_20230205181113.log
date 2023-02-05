@@ -1,0 +1,10 @@
+﻿2023-02-05T18:11:13.4400004+01:00;Thread#1;Info;Reading test run result from Json file "C:\Users\Gabi\AppData\Local\Temp\1deb8340-216b-43b8-bd1f-ff5a0e3eb45b".
+2023-02-05T18:11:13.4449992+01:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\Gabi\AppData\Local\Temp\1deb8340-216b-43b8-bd1f-ff5a0e3eb45b"
+2023-02-05T18:11:13.4469948+01:00;Thread#1;Info;Deserializing test run result
+2023-02-05T18:11:14.1989240+01:00;Thread#1;Info;Successfully deserialized test run result
+2023-02-05T18:11:14.1989240+01:00;Thread#1;Info;Loading test run result
+2023-02-05T18:11:14.2325544+01:00;Thread#1;Info;Successfully loaded test run result
+2023-02-05T18:11:14.2445589+01:00;Thread#1;Info;creating 1 report(s)
+2023-02-05T18:11:14.2445589+01:00;Thread#1;Info;generate Report using template ReportTemplate.cshtml
+2023-02-05T18:11:15.7500763+01:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========

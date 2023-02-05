@@ -1,0 +1,158 @@
+﻿2023-02-05T18:05:40.5243822+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2023-02-05T18:05:40.5243822+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.31 in Framework clr40 in x86 mode execution started
+2023-02-05T18:05:40.5243822+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\packages\SpecRun.Runner.3.9.31\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2023-02-05T18:05:40.5253845+01:00;VSTestExecutionThread;Info;Current UserName: 'Gabi', MachineName: 'DESKTOP-R80D4UH'
+2023-02-05T18:05:40.5664784+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T18:05:40.5664784+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\TestResults" (default)
+2023-02-05T18:05:40.5664784+01:00;VSTestExecutionThread;Info;Profile: 
+2023-02-05T18:05:40.6223425+01:00;VSTestExecutionThread;Info;Log file path: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\TestResults\Unnamed project__2023-02-05T180540.log
+2023-02-05T18:05:40.6303394+01:00;Thread#13;Info;Checking activation
+2023-02-05T18:05:40.7128046+01:00;Thread#13;Info;Activated.
+2023-02-05T18:05:40.7128046+01:00;Thread#13;Info;Activation check completed
+2023-02-05T18:05:40.7128046+01:00;Thread#13;Info;Starting test run
+2023-02-05T18:05:40.7586243+01:00;Thread#13;Info;Discovering target: Default
+2023-02-05T18:05:40.7586243+01:00;Thread#13;Info;Discovering tests from assembly: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T18:05:41.2769615+01:00;Thread#13;Info;Discovered tests from assembly: C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T18:05:41.2789570+01:00:Test Suite Dump
+2023-02-05T18:05:41.2809494+01:00:#0: Unnamed project/ - 
+2023-02-05T18:05:41.2809494+01:00:#1: Default - 
+2023-02-05T18:05:41.2809494+01:00:#2: DemositeSpecflow - 
+2023-02-05T18:05:41.2809494+01:00:#3: DemositeFeature - 
+2023-02-05T18:05:41.3136977+01:00:#4: Login User - TestAssembly:DemositeSpecflow/Feature:DemositeFeature/Scenario:Login+User
+2023-02-05T18:05:41.3136977+01:00:End: Test Suite Dump
+2023-02-05T18:05:41.3403688+01:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-05T18:05:41.3443739+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2023-02-05T18:05:41.3443739+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2023-02-05T18:05:41.3505916+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2023-02-05T18:05:41.3505916+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2023-02-05T18:05:41.3505916+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2023-02-05T18:05:41.3505916+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2023-02-05T18:05:41.3525920+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2023-02-05T18:05:41.3535915+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2023-02-05T18:05:41.3559245+01:00:Thread #0: creating new test thread executor for DemositeSpecflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2023-02-05T18:05:41.3584177+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2023-02-05T18:05:41.3624331+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2023-02-05T18:05:41.3634288+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2023-02-05T18:05:41.5864942+01:00:Thread#0:T:-> Loading plugin C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2023-02-05T18:05:41.5924978+01:00:Thread#0:T:-> Loading plugin C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\DemositeSpecflow\bin\Debug\DemositeSpecflow.dll
+2023-02-05T18:05:41.5954929+01:00:Thread#0:T:-> Using default config
+2023-02-05T18:05:41.9166976+01:00:Thread#0: Test #4/0 is started on thread #0
+2023-02-05T18:05:41.9455202+01:00:Thread#0:B:Given I have navigated to Demosite
+2023-02-05T18:05:45.9394578+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveNavigatedToDemosite() (3,9s)
+2023-02-05T18:05:45.9404577+01:00:Thread#0:B:And I have entered username
+2023-02-05T18:05:46.1511810+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredUsername() (0,2s)
+2023-02-05T18:05:46.1511810+01:00:Thread#0:B:And I have entered password
+2023-02-05T18:05:46.3531599+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredPassword() (0,2s)
+2023-02-05T18:05:46.3541591+01:00:Thread#0:B:When I press login button
+2023-02-05T18:05:46.7172845+01:00:Thread#0:T:done: DemositeFeatureSteps.WhenIPressLoginButton() (0,4s)
+2023-02-05T18:05:46.7182737+01:00:Thread#0:B:Then I should be navigated to index page
+2023-02-05T18:05:49.8145776+01:00:Thread#0:T:done: DemositeFeatureSteps.ThenIShouldBeNavigatedToIndexPage() (3,1s)
+2023-02-05T18:05:49.8235865+01:00:Thread#0:B:And I have entered inital
+2023-02-05T18:05:51.9661787+01:00:Thread#0:T:error: no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="Initial"]"}
+2023-02-05T18:05:51.9711793+01:00:Thread#0:T:  (Session info: chrome=109.0.5414.120) (2,1s)
+2023-02-05T18:05:51.9801781+01:00:Thread#0:B:And I have entered first name
+2023-02-05T18:05:51.9851763+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:05:51.9978404+01:00:Thread#0:B:And I have entered middle name
+2023-02-05T18:05:52.0044153+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:05:52.0100032+01:00:Thread#0:B:When I choose female button
+2023-02-05T18:05:52.0145495+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:05:52.0195474+01:00:Thread#0:B:When I press save
+2023-02-05T18:05:52.0265508+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:05:52.0355541+01:00:Thread#0:B:Then I should stay on index page
+2023-02-05T18:05:52.0395449+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:05:52.1167613+01:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2023-02-05T18:05:52.1227625+01:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-05T18:05:52.1227625+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2023-02-05T18:05:52.1227625+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2023-02-05T18:05:52.1227625+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2023-02-05T18:05:52.1227625+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2023-02-05T18:05:52.1227625+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2023-02-05T18:05:52.1227625+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2023-02-05T18:05:52.1227625+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2023-02-05T18:05:52.1227625+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2023-02-05T18:05:52.4277454+01:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 10,5100481 seconds
+2023-02-05T18:05:52.4327417+01:00:Thread#0: Test #4/1 is started on thread #0
+2023-02-05T18:05:52.4367423+01:00:Thread#0:B:Given I have navigated to Demosite
+2023-02-05T18:05:55.4435892+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveNavigatedToDemosite() (3,0s)
+2023-02-05T18:05:55.4535917+01:00:Thread#0:B:And I have entered username
+2023-02-05T18:05:55.6031107+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredUsername() (0,1s)
+2023-02-05T18:05:55.6081150+01:00:Thread#0:B:And I have entered password
+2023-02-05T18:05:55.7431146+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredPassword() (0,1s)
+2023-02-05T18:05:55.7491172+01:00:Thread#0:B:When I press login button
+2023-02-05T18:05:56.1633128+01:00:Thread#0:T:done: DemositeFeatureSteps.WhenIPressLoginButton() (0,4s)
+2023-02-05T18:05:56.1673126+01:00:Thread#0:B:Then I should be navigated to index page
+2023-02-05T18:05:59.1936993+01:00:Thread#0:T:done: DemositeFeatureSteps.ThenIShouldBeNavigatedToIndexPage() (3,0s)
+2023-02-05T18:05:59.1975824+01:00:Thread#0:B:And I have entered inital
+2023-02-05T18:06:01.3244179+01:00:Thread#0:T:error: no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="Initial"]"}
+2023-02-05T18:06:01.3314236+01:00:Thread#0:T:  (Session info: chrome=109.0.5414.120) (2,1s)
+2023-02-05T18:06:01.3365950+01:00:Thread#0:B:And I have entered first name
+2023-02-05T18:06:01.3435925+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:06:01.3495713+01:00:Thread#0:B:And I have entered middle name
+2023-02-05T18:06:01.3555750+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:06:01.3619337+01:00:Thread#0:B:When I choose female button
+2023-02-05T18:06:01.3674750+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:06:01.3734764+01:00:Thread#0:B:When I press save
+2023-02-05T18:06:01.3790265+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:06:01.3836310+01:00:Thread#0:B:Then I should stay on index page
+2023-02-05T18:06:01.3885468+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:06:01.4052187+01:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-05T18:06:01.4052187+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2023-02-05T18:06:01.4052187+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2023-02-05T18:06:01.4052187+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2023-02-05T18:06:01.4052187+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2023-02-05T18:06:01.4052187+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2023-02-05T18:06:01.4052187+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2023-02-05T18:06:01.4052187+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2023-02-05T18:06:01.4052187+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2023-02-05T18:06:01.8826342+01:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 9,4498925 seconds
+2023-02-05T18:06:01.8876316+01:00:Thread#0: Test #4/2 is started on thread #0
+2023-02-05T18:06:01.8926379+01:00:Thread#0:B:Given I have navigated to Demosite
+2023-02-05T18:06:05.3823760+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveNavigatedToDemosite() (3,5s)
+2023-02-05T18:06:05.3903775+01:00:Thread#0:B:And I have entered username
+2023-02-05T18:06:05.6580834+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredUsername() (0,3s)
+2023-02-05T18:06:05.6660756+01:00:Thread#0:B:And I have entered password
+2023-02-05T18:06:05.8511372+01:00:Thread#0:T:done: DemositeFeatureSteps.GivenIHaveEnteredPassword() (0,2s)
+2023-02-05T18:06:05.8591349+01:00:Thread#0:B:When I press login button
+2023-02-05T18:06:06.4047946+01:00:Thread#0:T:done: DemositeFeatureSteps.WhenIPressLoginButton() (0,5s)
+2023-02-05T18:06:06.4157952+01:00:Thread#0:B:Then I should be navigated to index page
+2023-02-05T18:06:09.4389118+01:00:Thread#0:T:error: no such window: target window already closed
+2023-02-05T18:06:09.4459213+01:00:Thread#0:T:from unknown error: web view not found
+2023-02-05T18:06:09.4499128+01:00:Thread#0:T:  (Session info: chrome=109.0.5414.120) (3,0s)
+2023-02-05T18:06:09.4553213+01:00:Thread#0:B:And I have entered inital
+2023-02-05T18:06:09.4598449+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:06:09.4638452+01:00:Thread#0:B:And I have entered first name
+2023-02-05T18:06:09.4678474+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:06:09.4718458+01:00:Thread#0:B:And I have entered middle name
+2023-02-05T18:06:09.4760209+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:06:09.4800200+01:00:Thread#0:B:When I choose female button
+2023-02-05T18:06:09.4840186+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:06:09.4880164+01:00:Thread#0:B:When I press save
+2023-02-05T18:06:09.4920192+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:06:09.4960181+01:00:Thread#0:B:Then I should stay on index page
+2023-02-05T18:06:09.5012482+01:00:Thread#0:T:skipped because of previous errors
+2023-02-05T18:06:09.5112647+01:00:Thread#0:Scheduler: get next test for thread 0
+2023-02-05T18:06:09.5112647+01:00:Thread#:Scheduler: at the end of normal test queue
+2023-02-05T18:06:09.5112647+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2023-02-05T18:06:09.5112647+01:00:Thread#0:Scheduler: No more tests for thread
+2023-02-05T18:06:09.6261159+01:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 7,7384843 seconds
+2023-02-05T18:06:09.6639983+01:00:Trying to cancel thread
+2023-02-05T18:06:09.6639983+01:00:Thread cancelled
+2023-02-05T18:06:09.6765249+01:00:Thread#-1:Scheduler: get next test for thread -1
+2023-02-05T18:06:09.6765249+01:00:Thread#:Scheduler: at the end of normal test queue
+2023-02-05T18:06:09.6765249+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2023-02-05T18:06:09.6850646+01:00;Thread#13;Info;test run finished
+2023-02-05T18:06:09.6852539+01:00;Thread#13;Info;publishing test results
+2023-02-05T18:06:09.6947771+01:00;Thread#13;Info;test results published
+2023-02-05T18:06:09.6947771+01:00;Thread#13;Info;generating reports
+2023-02-05T18:06:09.8588568+01:00;Thread#13;Info;Starting external report generation process
+2023-02-05T18:06:12.5440501+01:00;Thread#13;Info;Successfully generated reports.
+2023-02-05T18:06:12.5460523+01:00;Thread#13;Info;Successfully generated reports
+2023-02-05T18:06:12.5599759+01:00:Total: 1 (test executions: 3)
+2023-02-05T18:06:12.5639809+01:00:Succeeded: 0
+2023-02-05T18:06:12.5649847+01:00:Ignored: 0
+2023-02-05T18:06:12.5649847+01:00:Pending: 0
+2023-02-05T18:06:12.5659787+01:00:Skipped: 0
+2023-02-05T18:06:12.5671205+01:00:Failed: 1
+2023-02-05T18:06:12.5863581+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2023-02-05T18:06:12.5863581+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Gabi\Desktop\Roxoft\Specflow\DemositeSpecflow\TestResults\Unnamed project__2023-02-05T180540.html'
+========== End of log file ==========
